@@ -1,48 +1,18 @@
 {
-  "name": "socket.io",
-  "version": "1.3.7",
-  "description": "node.js realtime framework server",
-  "keywords": [
-    "realtime",
-    "framework",
-    "websocket",
-    "tcp",
-    "events",
-    "socket",
-    "io"
-  ],
-  "main": "./lib/index",
+  "name": "cloudchat",
+  "version": "0.1.0",
+  "main": "index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Automattic/socket.io"
+    "url": "git://github.com/kimeberz/cloudchat.git"
   },
   "scripts": {
-    "test": "mocha --reporter dot --slow 200ms --bail"
+    "start": "node index.js",
+    "test": ""
   },
   "dependencies": {
-    "engine.io": "automattic/engine.io#master",
-    "socket.io-parser": "2.2.4",
-    "socket.io-client": "automattic/socket.io-client#master",
-    "socket.io-adapter": "automattic/socket.io-adapter#master",
-    "has-binary": "0.1.6",
-    "debug": "2.1.3"
-  },
-  "devDependencies": {
-    "mocha": "1.16.2",
-    "expect.js": "0.3.1",
-    "supertest": "0.8.2",
-    "superagent": "0.17.0",
-    "istanbul": "0.2.3"
-  },
-  "name": "socket.io-chat",
-  "version": "0.0.0",
-  "description": "A simple chat client using socket.io",
-  "main": "index.js",
-  "author": "Grant Timmerman",
-  "private": true,
-  "license": "BSD",
-  "dependencies": {
-    "express": "3.4.8"
+    "express": "^3.4.8",
+    "socket.io": "^1.3.7"
   }
 }
