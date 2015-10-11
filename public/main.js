@@ -235,7 +235,7 @@ $(function() {
   socket.on('login', function (data) {
     connected = true;
     // Display the welcome message
-    var message = "Sei gegrüßt";
+    var message = "Guten Tag";
     log(message, {
       prepend: true
     });
