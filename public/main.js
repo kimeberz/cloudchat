@@ -15,6 +15,7 @@ $(function() {
 
   var $loginPage = $('.login.page'); // The login page
   var $chatPage = $('.chat.page'); // The chatroom page
+  var $sendButton = $('button#send'); // Send button on chatroom page
 
   // Prompt for setting a username
   var username;
@@ -42,8 +43,8 @@ $(function() {
     // If the username is valid
     if (username) {
       $loginPage.slideUp("slow");
+      $chatPage.show();
       $currentInput = $inputMessage.focus();
-
       // Tell the server your username
       socket.emit('add user', username);
     }
@@ -219,6 +220,13 @@ $(function() {
   // Focus input when clicking on the message input's border
   $inputMessage.click(function () {
     $inputMessage.focus();
+  });
+
+  // Send message when 'Send' button is clicked
+  $sendButton.click(function () {
+    sendMessage();
+    socket.emit('stop typing');
+    typing = false;
   });
 
   // Socket events

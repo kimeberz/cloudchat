@@ -1,5 +1,11 @@
 /* Fix user-agent */
 
+
+.foam { padding: 3px; bottom: 0; width: 100%; border: 1px solid black; }
+.foam input { width: 90%; margin-right: .5%; border: none;}
+.foam input:focus { outline: none; }
+.foam button { width: 9%; background: white; padding: 10px; border: 1px solid black;}
+
 * {
   box-sizing: border-box;
 }
@@ -88,6 +94,10 @@ ul {
 
 /* Chat page */
 
+.chat.page {
+  display: none;
+}
+
 /* Font */
 
 .messages {
@@ -133,14 +143,14 @@ ul {
 
 /* Input */
 
-.inputMessage {
-  border: 10px solid #000;
-  bottom: 0;
-  height: 60px;
-  left: 0;
-  outline: none;
-  padding-left: 10px;
-  position: absolute;
-  right: 0;
-  width: 100%;
-}
+/*.inputMessage {*/
+  /*border: 10px solid #000;*/
+  /*bottom: 0;*/
+  /*height: 60px;*/
+  /*left: 0;*/
+  /*outline: none;*/
+  /*padding-left: 10px;*/
+  /*position: absolute;*/
+  /*right: 0;*/
+  /*width: 100%;*/
+/*}*/
