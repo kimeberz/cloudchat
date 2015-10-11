@@ -1,7 +1,7 @@
 
 # CloudChat by Kurv :beer:
 
-A simple chat demo for CF Summit Berlin
+A simple chat demo for CF Summit Berlin, presented by youreddy and kimeberz!
 
 ## How to use
 
