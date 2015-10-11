@@ -1,4 +1,9 @@
-/* Fix user-agent */
+/* Raleway Font */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
 
 /* hide scrollbar */
 
@@ -54,15 +59,48 @@ ul {
 
 /* Login Page */
 
+h1 {
+  color: #fff;
+  font-weight: 100;
+  text-align: center;
+  font-size: 100px;
+  padding-top: 100px;
+  margin-bottom: -10px
+}
+
+h4 {
+  text-align: center;
+  color: #fff;
+  font-weight: 200;
+  font-size: 30px;
+}
+
 .login.page {
-  background-color: #000;
+  background: #dfc2c1;
+  background: -moz-linear-gradient(top, #dfc2c1 0%, #8ab0c4 100%);
+  background: -webkit-gradient(linear, left top, left bottom,
+              color-stop(0%, #dfc2c1),
+              color-stop(100%, #8ab0c4));
+  background: -webkit-linear-gradient(top, #dfc2c1 0%, #8ab0c4 100%);
+  background: -o-linear-gradient(top, #dfc2c1 0%, #8ab0c4 100%);
+  background: -ms-linear-gradient(top, #dfc2c1 0%, #8ab0c4 100%);
+  background: linear-gradient(to bottom, #dfc2c1 0%, #8ab0c4 100%);
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfc2c1', endColorstr='#8ab0c4', GradientType=0);
+
+  /*background: #8ab0c4;*/
+  /*background: -moz-linear-gradient(top,  #8ab0c4 0%, #dfc2c1 100%);*/
+  /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8ab0c4), color-stop(100%,#dfc2c1));*/
+  /*background: -webkit-linear-gradient(top,  #8ab0c4 0%,#dfc2c1 100%);*/
+  /*background: -o-linear-gradient(top,  #8ab0c4 0%,#dfc2c1 100%);*/
+  /*background: -ms-linear-gradient(top,  #8ab0c4 0%,#dfc2c1 100%);*/
+  /*background: linear-gradient(to bottom,  #8ab0c4 0%,#dfc2c1 100%);*/
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ab0c4', endColorstr='#dfc2c1',GradientType=0 );*/
 }
 
 .login.page .form {
   height: 100px;
   margin-top: -100px;
-  position: absolute;
-
   text-align: center;
   top: 50%;
   width: 100%;
@@ -74,6 +112,7 @@ ul {
   border-bottom: 2px solid #fff;
   outline: none;
   padding-bottom: 15px;
+  padding-top: 130px;
   text-align: center;
   width: 400px;
 }
@@ -90,6 +129,11 @@ ul {
 .login.page .title, .login.page .usernameInput {
   color: #fff;
   font-weight: 100;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 /* Chat page */
