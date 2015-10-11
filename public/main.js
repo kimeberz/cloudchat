@@ -41,9 +41,7 @@ $(function() {
 
     // If the username is valid
     if (username) {
-      $loginPage.fadeOut();
-      $chatPage.show();
-      $loginPage.off('click');
+      $loginPage.slideUp("slow");
       $currentInput = $inputMessage.focus();
 
       // Tell the server your username
