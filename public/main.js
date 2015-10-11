@@ -15,7 +15,7 @@ $(function() {
 
   var $loginPage = $('.login.page'); // The login page
   var $chatPage = $('.chat.page'); // The chatroom page
-  var $sendButton = $('button#send'); // Send button on chatroom page
+  var $sendButton = $('.messageBox button'); // Send button on chatroom page
 
   // Prompt for setting a username
   var username;
@@ -42,7 +42,7 @@ $(function() {
 
     // If the username is valid
     if (username) {
-      $loginPage.slideUp("slow");
+      $loginPage.slideUp(1700);
       $chatPage.show();
       $currentInput = $inputMessage.focus();
       // Tell the server your username
