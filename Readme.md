@@ -1,16 +1,13 @@
 
-# Socket.IO Chat
+# CloudChat by Kurv :beer:
 
-A simple chat demo for socket.io
+A simple chat demo for CF Summit Berlin
 
 ## How to use
 
 ```
-$ cd socket.io
-$ npm install
-$ cd examples/chat
-$ npm install
-$ node .
+$ make
+
 ```
 
 And point your browser to `http://localhost:3000`. Optionally, specify
