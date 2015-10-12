@@ -127,6 +127,23 @@ img.landing-clouds {
   bottom: 0;
 }
 
+img.clouds-bottom {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+}
+
+
+
+
+img.berlin-skyline {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+}
+
 img {
   z-index: 0;
 }
@@ -135,6 +152,14 @@ img {
 
 .chat.page {
   display: none;
+  background: rgb(138,176,196);
+  background: -moz-linear-gradient(top,  rgba(138,176,196,1) 0%, rgba(197,215,229,1) 52%, rgba(255,255,255,1) 99%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(138,176,196,1)), color-stop(52%,rgba(197,215,229,1)), color-stop(99%,rgba(255,255,255,1)));
+  background: -webkit-linear-gradient(top,  rgba(138,176,196,1) 0%,rgba(197,215,229,1) 52%,rgba(255,255,255,1) 99%);
+  background: -o-linear-gradient(top,  rgba(138,176,196,1) 0%,rgba(197,215,229,1) 52%,rgba(255,255,255,1) 99%);
+  background: -ms-linear-gradient(top,  rgba(138,176,196,1) 0%,rgba(197,215,229,1) 52%,rgba(255,255,255,1) 99%);
+  background: linear-gradient(to bottom,  rgba(138,176,196,1) 0%,rgba(197,215,229,1) 52%,rgba(255,255,255,1) 99%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ab0c4', endColorstr='#ffffff',GradientType=0 );
 }
 
 /* Font */
@@ -184,7 +209,7 @@ img {
 .messages {
   height: 100%;
   margin: 0;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 .message.typing .messageBody {
