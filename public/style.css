@@ -131,9 +131,15 @@ h4 {
   font-weight: 100;
 }
 
-img {
+img.landing-clouds {
   width: 100%;
   height: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+img {
+  z-index: 0;
 }
 
 /* Chat page */
