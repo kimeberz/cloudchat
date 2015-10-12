@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2644px" height="779px" viewBox="0 0 2644 779" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Group" sketch:type="MSLayerGroup" fill="#677073">
+            <ellipse id="Oval-895" sketch:type="MSShapeGroup" cx="820" cy="188.5" rx="44" ry="43.5"></ellipse>
+            <path d="M0,667 C0,667 200.332958,615.747604 303,616 C883.151001,617.426241 1837.58551,616.449121 2317.5,616 C2481.71649,615.846321 2644,667.000002 2644,667.000002 L2644,779 L0,779 L0,667 Z" id="Rectangle-175" sketch:type="MSShapeGroup"></path>
+            <path d="M805.343471,220.006701 C805.42992,215.584722 809.085392,212 813.491301,212 L824.508699,212 C828.922173,212 832.580695,215.584569 832.680245,220.006701 L841.819754,625.993299 C841.919301,630.415278 838.413565,634 833.999597,634 L805.250403,634 C800.831903,634 797.320077,630.415431 797.406529,625.993299 L805.343471,220.006701 Z" id="Rectangle-177" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-178" sketch:type="MSShapeGroup" x="795" y="236" width="50" height="18" rx="6"></rect>
+            <rect id="Rectangle-178-Copy" sketch:type="MSShapeGroup" x="804" y="122" width="30" height="37" rx="2"></rect>
+            <rect id="Rectangle-178-Copy-3" sketch:type="MSShapeGroup" x="809" y="101" width="18" height="37" rx="2"></rect>
+            <path d="M815.992046,2.50238598 C815.996439,1.39649874 816.889055,0.499999992 817.999972,0.499999994 L818.500028,0.499999995 C819.604582,0.499999998 820.504398,1.38567438 820.509942,2.50238599 L822.990058,501.997614 C822.995549,503.103501 822.104142,504 821.002608,504 L815.997392,504 C814.894263,504 814.003518,503.114326 814.007954,501.997614 L815.992046,2.50238598 Z" id="Rectangle-178-Copy-4" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-178-Copy-2" sketch:type="MSShapeGroup" x="795" y="116" width="48" height="7" rx="2"></rect>
+            <rect id="Rectangle-183-Copy" sketch:type="MSShapeGroup" x="1802" y="283.453911" width="93" height="348.546089" rx="2"></rect>
+            <rect id="Rectangle-183-Copy-3" sketch:type="MSShapeGroup" x="1984" y="283.453911" width="93" height="348.546089" rx="2"></rect>
+            <rect id="Rectangle-183-Copy-2" sketch:type="MSShapeGroup" x="1208" y="466" width="411" height="183" rx="2"></rect>
+            <rect id="Rectangle-183-Copy-4" sketch:type="MSShapeGroup" x="304" y="482" width="301" height="150" rx="2"></rect>
+        </g>
+    </g>
+</svg>
