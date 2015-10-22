@@ -42,7 +42,7 @@ ul {
 
 /*i added 90% to this height and it fixed our overflow problem... not sure wtf is goin on*/
 .page {
-  height: 90%;
+  height: 100%;
   position: absolute;
   width: 100%;
 }
@@ -121,33 +121,6 @@ h4 {
   font-weight: 200;
 }
 
-img.landing-clouds {
-  width: 100%;
-  height: auto;
-  position: absolute;
-  bottom: 0;
-}
-
-img.clouds-bottom {
-  width: 100%;
-  height: auto;
-/*  position: absolute;
-  top: 0;*/
-}
-
-
-
-
-img.berlin-skyline {
-  width: 100%;
-  height: auto;
-/*  position: absolute;
-  bottom: 0;*/
-}
-
-img {
-  z-index: 0;
-}
 
 /* Chat page */
 
@@ -165,13 +138,49 @@ img {
 
 /*chat top and bottom, new classes for new divs to contain the chat area and the svgs*/
 .chat-top {
-  height: 10%;
+  height: 20%;
+  top: 0;
+  background-image: url('img/clouds_bottom.svg');
+  background-repeat: repeat-x;
+  background-size: 61%;
+}
+
+.clouds-bottom {
+  background-image: url(img/clouds_bottom.svg);
+  width: 100%;
+  height: 100%;
+  background-repeat:repeat-x;
   top: 0;
 }
 
 .chat-bottom {
   height: 10%;
   bottom: 0;
+}
+
+img.landing-clouds {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+/*img.clouds-bottom {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}*/
+
+img.berlin-skyline {
+  width: 100%;
+  height: auto;
+/*  position: absolute;
+  bottom: 0;*/
+}
+
+img {
+  z-index: 0;
 }
 
 /* Font */
@@ -217,7 +226,7 @@ img {
 }
 
 .chatArea {
-  height: 80%;
+  height: 60%;
   z-index: 
 }
 
