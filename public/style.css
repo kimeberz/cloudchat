@@ -154,7 +154,7 @@ h4 {
 }
 
 .chat-bottom {
-  background-image: url('img/skyline2.svg');
+  background-image: url('img/skyline_color.svg');
   background-size: cover;
   background-position: bottom;
   width: 100%;
@@ -206,7 +206,7 @@ img {
   border: 1px solid #d4d9d9;
   border-radius: 3px;
   position: relative;
-  bottom: -2%
+  bottom: -6%
 }
 .messageBox input {
   width: 85%;
@@ -235,7 +235,7 @@ img {
 }
 
 .messages {
-  height: 75%;
+  height: 85%;
   margin: 0;
   overflow-y: hidden;
 }
