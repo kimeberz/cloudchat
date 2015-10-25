@@ -40,7 +40,6 @@ ul {
   width: 100%;
 }
 
-/*i added 90% to this height and it fixed our overflow problem... not sure wtf is goin on*/
 .page {
   height: 100%;
   position: absolute;
@@ -51,18 +50,15 @@ ul {
 
 h1 {
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
   text-align: center;
-  font-size: 5vw;
-  padding-top: 100px;
   margin-bottom: -10px
 }
 
 h4 {
   text-align: center;
   color: #fff;
-  font-weight: 200;
-  font-size: 2vw;
+  font-weight: 300;
 }
 
 .login.page {
@@ -88,9 +84,18 @@ h4 {
   /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ab0c4', endColorstr='#dfc2c1',GradientType=0 );*/
 }
 
+.login.page .login-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.login.page .login-content > div {
+  transform: translateY(-50%);
+}
+
 .login.page .form {
-  height: 100px;
-  margin-top: -100px;
   text-align: center;
   top: 50%;
   width: 100%;
@@ -102,7 +107,6 @@ h4 {
   border-bottom: 2px solid #fff;
   outline: none;
   padding-bottom: 15px;
-  padding-top: 130px;
   text-align: center;
   width: 400px;
 }
@@ -126,6 +130,7 @@ h4 {
 
 .chat.page {
   display: none;
+  overflow: hidden;
   background: rgb(138,176,196);
   background: -moz-linear-gradient(top,  rgba(138,176,196,1) 0%, rgba(197,215,229,1) 52%, rgba(255,255,255,1) 99%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(138,176,196,1)), color-stop(52%,rgba(197,215,229,1)), color-stop(99%,rgba(255,255,255,1)));
@@ -138,45 +143,36 @@ h4 {
 
 /*chat top and bottom, new classes for new divs to contain the chat area and the svgs*/
 .chat-top {
-  height: 20%;
-  top: 0;
-  background-image: url('img/clouds_bottom.svg');
-  background-repeat: repeat-x;
-  background-size: 61%;
-}
-
-.clouds-bottom {
-  background-image: url(img/clouds_bottom.svg);
+  background-image: url('img/clouds_bottom2.svg');
+  background-size: cover;
+  background-position: top;
   width: 100%;
-  height: 100%;
-  background-repeat:repeat-x;
+  height: 20%;
+  max-width: 1640px;
+  position: absolute;
   top: 0;
 }
 
 .chat-bottom {
-  height: 10%;
-  bottom: 0;
-}
-
-img.landing-clouds {
+  background-image: url('img/skyline2.svg');
+  background-size: cover;
+  background-position: bottom;
   width: 100%;
-  height: auto;
+  height: 20%;
+  max-width: 1640px;
   position: absolute;
   bottom: 0;
 }
 
-/*img.clouds-bottom {
+.landing-clouds {
+  background-image: url('img/clouds_login_lrg.svg');
+  background-size: cover;
+  background-position: bottom;
   width: 100%;
-  height: 100%;
+  height: 40%;
+  max-width: 1640px;
   position: absolute;
-  top: 0;
-}*/
-
-img.berlin-skyline {
-  width: 100%;
-  height: auto;
-/*  position: absolute;
-  bottom: 0;*/
+  bottom: 0;
 }
 
 img {
@@ -206,8 +202,6 @@ img {
 .messageBox {
   padding: 3px;
   margin: 10px;
-  /*bottom: 0;*/
-  width: 100%;
   border: 1px solid black;
 }
 .messageBox input {
@@ -247,3 +241,4 @@ img {
   padding-right: 15px;
   text-align: right;
 }
+
