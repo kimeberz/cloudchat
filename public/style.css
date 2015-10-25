@@ -143,11 +143,11 @@ h4 {
 
 /*chat top and bottom, new classes for new divs to contain the chat area and the svgs*/
 .chat-top {
-  background-image: url('img/clouds_bottom2.svg');
+  background-image: url('img/clouds_bottom3.svg');
   background-size: cover;
   background-position: top;
   width: 100%;
-  height: 20%;
+  height: 15%;
   max-width: 1640px;
   position: absolute;
   top: 0;
@@ -158,7 +158,7 @@ h4 {
   background-size: cover;
   background-position: bottom;
   width: 100%;
-  height: 20%;
+  height: 15%;
   max-width: 1640px;
   position: absolute;
   bottom: 0;
@@ -226,8 +226,8 @@ img {
 }
 
 .chatArea {
-  height: 60%;
-  z-index: 
+  height: 70%;
+  z-index: 1;
 }
 
 .messages {
