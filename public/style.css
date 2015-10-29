@@ -143,7 +143,7 @@ h4 {
 
 /*chat top and bottom, new classes for new divs to contain the chat area and the svgs*/
 .chat-top {
-  background-image: url('img/clouds_bottom3.svg');
+  background-image: url('img/clouds_bottom_final.svg');
   background-size: cover;
   background-position: top;
   width: 100%;
@@ -161,7 +161,7 @@ h4 {
   height: 15%;
   max-width: 1640px;
   position: absolute;
-  bottom: 0;
+  bottom: 50px;
 }
 
 .landing-clouds {
@@ -170,7 +170,7 @@ h4 {
   background-position: bottom;
   width: 100%;
   height: 40%;
-  max-width: 1640px;
+  /*max-width: 1640px;*/
   position: absolute;
   bottom: 0;
 }
@@ -196,22 +196,35 @@ img {
   text-align: center;
 }
 
+.log:nth-child(odd) {
+  font-size: 24px;
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
+  color: #333333;
+}
+
 /* Messages */
 
 /*the margin on this box is messed up*/
 .messageBox {
   padding: 3px;
-  margin: 10px;
   background-color: white;
   border: 1px solid #d4d9d9;
-  border-radius: 3px;
+  border-radius: 0;
   position: relative;
-  bottom: -6%
+  bottom: -6%;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
 }
 .messageBox input {
-  width: 85%;
+  width: 100%;
   margin-right: .5%;
   border: none;
+  height: 100%;
 }
 .messageBox input:focus {
   outline: none;
@@ -223,13 +236,20 @@ img {
   padding: 10px;
   border: 1px solid #d4d9d9;
   font-weight: 600;
-  border-radius: 3px;
-  min-width: 50px;
+  min-width: 75px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 0;
+  border-left-width: 2px;  
+}
+
+.messageBox button:hover {
+  cursor: pointer;
 }
 
 .chatArea {
-  height: 70%;
-  z-index: 1;
   top: 15%;
   position: relative;
 }
@@ -245,10 +265,11 @@ img {
 }
 
 .username {
-/*  float: left;*/
-  font-weight: 700;
-  overflow: hidden;
-  padding-right: 15px;
-  text-align: right;
+  font-weight: bold;
+  display: block;
+}
+
+.message {
+  margin: 10px 0;
 }
 
